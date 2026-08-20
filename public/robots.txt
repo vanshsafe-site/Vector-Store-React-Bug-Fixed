@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /order-success
+
+# Block common vulnerability scanners and scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+Sitemap: https://udbhavpharma.vercel.app/sitemap.xml

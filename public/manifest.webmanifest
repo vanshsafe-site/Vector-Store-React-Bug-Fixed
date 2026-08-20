@@ -1,0 +1,32 @@
+{
+  "name": "Udbhav Pharmaceuticals — Wholesale Pharmacy Supplies",
+  "short_name": "Udbhav Pharma",
+  "description": "B2B wholesale platform for pharmacies and medical stores by Udbhav Pharmaceuticals.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0F4C81",
+  "background_color": "#ffffff",
+  "lang": "en-IN",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["medical", "shopping", "business"],
+  "prefer_related_applications": false
+}
